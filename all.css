@@ -1,4 +1,249 @@
-h1{
-color:blue;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9d2f83ff6539039c2a9e0e18a9067459f69c597a/week2/banner.png);
+    width: 1920px;
+    margin: 0 auto;
+    padding-top: 308px;
+    padding-bottom: 308px;
+    text-align: center;
+}
+.social{
+
+display:flex;
+justify-content: center; 
 
 }
+
+.item{
+
+margin-right: 16px;
+
+
+}
+
+
+h2,h3{
+
+font-size:24px;
+color:#FFFFFF;
+text-align: left;
+margin-left: 806px ;
+margin-bottom: 40px;
+font-weight: bold;
+font-style:italic;
+
+}
+h1{
+
+font-size:80px;
+color: #FFFFFF;
+text-align: left;
+margin-left: 806px;
+margin-bottom: 32px;
+font-weight: 900;
+font-style:italic;
+}
+
+.info{
+
+ padding-bottom: 56px;
+ margin: 0 auto;
+ width: 1920px;
+ font-weight: bold;
+	
+	
+}
+
+
+
+h4{
+
+font-size: 64px;
+text-align: center;
+margin-top: 56px;
+font-weight: medium;
+font-style:italic;
+}
+
+.info img{
+padding-top: 28px;
+padding-bottom: 20px;
+margin: auto;
+display: block;
+
+}
+.info p{
+	font-size: 24px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	width: 412px;
+	margin: 0 auto;
+	line-height: 1.5;
+	padding-bottom: 28px;
+	font-style:italic;
+}
+.info li{
+	padding-top: 28px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 24px;
+	font-style:italic;
+	
+}
+.brand{
+
+width: 1920px;
+margin: 0 auto;
+text-align: center;
+background: black;
+padding-bottom: 120px;
+padding-top: 56px;
+font-style:italic;
+}
+h5{
+	font-size: 64px;
+	text-align: center;
+	color:white;
+	padding-bottom: 12px;
+	font-style:italic;
+}
+.brand p{
+
+	color:white;
+	font-size: 24px;
+	padding-bottom: 68px;
+	line-height: 1.5;
+	font-style:italic;
+}
+.brand img{
+
+width: 792px;
+height: 416px;
+padding-bottom: 40px;
+
+}
+.shirt{
+
+padding-left: 24px;
+
+}
+.shirt img{
+
+	width: 588px;
+	height: 416px;
+
+}
+.works{
+
+width: 1920px;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 128px;
+font-style:italic;
+
+}
+.works p{
+
+font-size: 20px;
+padding-top: 16px;
+padding-bottom: 56px;
+line-height: 1.5;
+
+}
+.design{
+
+	display:flex;
+	justify-content:space-around;
+	margin-left: 360px;
+	margin-right: 360px;
+	padding-bottom: 16px;
+	font-style:italic;
+}
+.works ul{
+
+
+display: flex;
+justify-content:space-around;
+margin-left: 360px;
+margin-right: 360px;
+font-size: 20px;
+padding-bottom: 48px;
+
+}
+.pho ul{
+
+padding-top: 16px;
+
+}
+.sec3{
+	display:flex;
+	justify-content:space-around;
+	margin-left: 360px;
+	margin-right: 360px;
+	padding-bottom: 16px;
+}
+
+.footer{
+background: black;
+text-align: center;
+color:white;
+width: 1920px;
+margin: 0 auto;
+padding-top: 64px;
+padding-bottom: 64px;
+
+}
+.footer ul{
+font-style:italic;
+font-size: 24px;
+line-height: 1.5;
+}
+
